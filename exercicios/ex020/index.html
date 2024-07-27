@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to right, white, blue);
+            text-align: center;
+        }
+        
+        div {
+            text-align: center;
+        }
+        
+        div > p {
+            background-color: lightgray;
+            width: 210px;
+            height: 100px;
+            border: 2px solid black;
+            display: none;
+            text-decoration: none;
+
+        }
+
+        div:hover > p {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudoclasses e Divs</h1>
+    <div>UM TEXTO INVISIVEL AO PASSAR O RATO AQUI 
+        <p>ACHOUUU</p>
+        <p>OUTRO TEXTO INVISIVEL</p>
+        <P>TEXTO PARA TESTE</P>
+    </div>
+    <p>FIM</p>
+    
+</body>
+</html>

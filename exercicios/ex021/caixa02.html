@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupings Tags</title>
+    <style>
+        body {
+            background-color: lightblue;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin: 0px;
+
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        h1 {
+            background-image: linear-gradient(to right, white, lightgray);
+            border: 0px solid rgb(199, 196, 196);
+            border-radius: 10px;
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+
+        }
+
+       h2 {
+            background-color: aliceblue;
+            box-shadow: 1px 1px 6px #000000;
+        }
+        
+        nav {
+            background-color: #7c7b7b;
+            box-shadow: 2px 2px 4px black;
+            border-radius: 5px;
+        }
+
+        nav > a {
+            margin-right: 30px;
+            text-decoration: none;
+        }
+
+        nav > a:visited {
+            color: #8b0000;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: #079e9e;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: justify;
+        }
+
+        .sup {
+            font-weight: bold;
+        }
+
+        aside {
+            margin: 10px;
+            background-color: darkgray;
+            color: white;
+            font-weight: bolder;
+            padding: 3px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            border-radius: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>New Project</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Noticia Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At quod, beatae labore consectetur facilis atque minima sunt hic impedit maxime expedita magnam eius autem numquam commodi aspernatur id quam quos!</p>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Guerra Ucrânia e Russia</h2>
+               <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius consequuntur laboriosam quis ullam in. Repudiandae, architecto! Voluptatum libero atque natus. Ipsum impedit minima saepe dignissimos vel non nulla nemo reprehenderit!</span>
+            </article>
+        </section>
+        <section class="sup">
+            <article>
+                <h2>Oque precisamos para manter na guerra?</h2>
+                <ul>
+                    <li>Munição</li>
+                    <li>Colete</li>
+                    <li>Suprimentos</li>
+                    <li>Morfina</li>
+                </ul>
+              
+            </article>
+        </section>
+        <section>
+            <article>
+                <h2>Bombardeio em KIEV abaixo.</h2>
+                <img src="Explosao-Kiev.webp" alt="KIEV">
+            </article>
+        </section>
+        
+
+    </main>
+    <aside>
+        Texto reinvidicado pelo Leonardo nos seculo XI.
+    </aside>
+    <footer>Leonardo Vieira de Souza</footer>
+
+</body>
+
+</html>
