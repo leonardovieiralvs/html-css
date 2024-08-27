@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inr1">Numero 1: </label>
+            <input type="number" name="nr1" id="inr1" min="0" max="100" value="0" oninput="isoma.innerHTML = Number(inr1.value) + Number(inr2.value)">
+        </p>
+
+        <p>
+            <label for="inr2">Numero 2: </label>
+            <input type="number" name="nmr2" id="inr2" min="0" max="100" value="0" oninput="isoma.innerHTML = Number(inr1.value) + Number(inr2.value)">
+        </p>
+
+        <p>
+            <label for="isoma">Soma: </label>
+            <output id="isoma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
