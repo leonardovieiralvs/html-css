@@ -24,16 +24,19 @@ header {
 }
 
 header > h1 {
+    padding: 5px;
     color: white;
     margin-bottom: 10px;
+    border: 1px solid black;
 }
 
 menu {
-    display: flex;
+    border: 1px solid black;
+    padding: 5px;
 }
 
 menu > ul > li {
-    display: inline;
+    display: inline-block;
     list-style: none;
     padding: 5px;
     align-self: flex-end;
