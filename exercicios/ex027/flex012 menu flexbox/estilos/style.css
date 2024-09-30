@@ -13,46 +13,41 @@ html, body {
 }
 
 header {
-    width: 100%;
     padding: 10px;
     background-color: grey;
-    margin-bottom: 10px;
+    color: white;
+
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 header > h1 {
-    padding: 5px;
-    color: white;
-    margin-bottom: 10px;
-    border: 1px solid black;
+    margin-bottom: 5px;
+    flex: 0 0 200px;
 }
 
-menu {
-    border: 1px solid black;
-    padding: 5px;
+header > nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 
-menu > ul > li {
-    display: inline-block;
-    list-style: none;
-    padding: 5px;
-    align-self: flex-end;
-}
-
-menu > ul > li > a {
+header > nav > a {
     text-decoration: none;
     background-color: black;
     color: white;
-    padding: 5px;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
 
-menu > ul > li > a:hover {
+header > nav > a:hover {
     background-color: white;
     color: black;
+    transition: background-color .5s;
 }
 
 main {
